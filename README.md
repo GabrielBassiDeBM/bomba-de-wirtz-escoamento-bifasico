@@ -4,6 +4,8 @@
 
 Gabriel Bassi — Equipe Brasil, International Young Physicists' Tournament (IYPT) 2025, Problema 16 ("Wirtz Pump").
 
+**[Ler o artigo online](https://gabrielbassidebm.github.io/bomba-de-wirtz-escoamento-bifasico/)** · [Abrir o PDF](main.pdf) · [Baixar o PDF](https://github.com/GabrielBassiDeBM/bomba-de-wirtz-escoamento-bifasico/raw/main/main.pdf)
+
 ## Resumo
 
 Uma bomba de Wirtz é uma espiral oca que captura tampões de água e bolsões de ar alternados e eleva a água por um tubo vertical. Todo o escoamento bifásico é descrito por uma única equação de Navier–Stokes, escrita com o vetor de funções indicadoras e os vetores de propriedades das fases,
@@ -51,12 +53,28 @@ $$
 
 que reproduz as medidas em função da rotação, da profundidade de imersão e do número de voltas.
 
+## O artigo
+
+O artigo completo, página a página. Para ler com zoom ou baixar, use os links no topo.
+
+![Página 1](paginas/pagina-01.jpg)
+![Página 2](paginas/pagina-02.jpg)
+![Página 3](paginas/pagina-03.jpg)
+![Página 4](paginas/pagina-04.jpg)
+![Página 5](paginas/pagina-05.jpg)
+![Página 6](paginas/pagina-06.jpg)
+![Página 7](paginas/pagina-07.jpg)
+![Página 8](paginas/pagina-08.jpg)
+![Página 9](paginas/pagina-09.jpg)
+
 ## Arquivos
 
 - `main.tex`: fonte LaTeX (REVTeX 4.2, português)
 - `references.bib`: referências
 - `figures/`: figuras
 - `main.pdf`: artigo compilado
+- `paginas/`: páginas do artigo em imagem
+- `index.html`: página de leitura (GitHub Pages)
 
 ## Compilação
 

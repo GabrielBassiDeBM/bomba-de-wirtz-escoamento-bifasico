@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A bomba de Wirtz</title>
+<style>
+  :root { --bg:#f4f4f2; --fg:#1d1d1f; --muted:#5a5a5f; --accent:#0b5cad; --page:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16171a; --fg:#ececee; --muted:#a3a3aa; --accent:#6fb2ff; --page:#fff; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.55 Georgia, "Times New Roman", serif; }
+  header { max-width:860px; margin:0 auto; padding:48px 16px 24px; }
+  h1 { font-size:clamp(1.5rem,4vw,2.2rem); line-height:1.2; margin:0 0 8px; }
+  .sub { font-size:1.1rem; color:var(--muted); margin:0 0 16px; }
+  .meta { color:var(--muted); margin:0 0 20px; font-family:system-ui,sans-serif; font-size:.95rem; }
+  .links a { display:inline-block; margin:0 10px 10px 0; padding:9px 16px; border-radius:6px;
+             font-family:system-ui,sans-serif; font-size:.95rem; text-decoration:none;
+             border:1px solid var(--accent); color:var(--accent); }
+  .links a.primary { background:var(--accent); color:#fff; }
+  main { max-width:860px; margin:0 auto; padding:0 16px 64px; }
+  main img { display:block; width:100%; height:auto; background:var(--page);
+             margin:0 0 20px; box-shadow:0 2px 10px rgba(0,0,0,.18); }
+  footer { text-align:center; color:var(--muted); font-family:system-ui,sans-serif;
+           font-size:.85rem; padding:0 16px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>A bomba de Wirtz</h1>
+  <p class="sub">Um modelo bifásico de média volumétrica para uma bomba d'água espiral em rotação</p>
+  <p class="meta">Gabriel Bassi &middot; Equipe Brasil, International Young Physicists' Tournament (IYPT) 2025</p>
+  <p class="links">
+    <a class="primary" href="main.pdf">Abrir o PDF</a>
+    <a href="https://github.com/GabrielBassiDeBM/bomba-de-wirtz-escoamento-bifasico/raw/main/main.pdf">Baixar o PDF</a>
+    <a href="https://github.com/GabrielBassiDeBM/bomba-de-wirtz-escoamento-bifasico">Código-fonte LaTeX</a>
+  </p>
+</header>
+<main>
+  <img src="paginas/pagina-01.jpg" alt="Página 1 do artigo" loading="lazy">
+  <img src="paginas/pagina-02.jpg" alt="Página 2 do artigo" loading="lazy">
+  <img src="paginas/pagina-03.jpg" alt="Página 3 do artigo" loading="lazy">
+  <img src="paginas/pagina-04.jpg" alt="Página 4 do artigo" loading="lazy">
+  <img src="paginas/pagina-05.jpg" alt="Página 5 do artigo" loading="lazy">
+  <img src="paginas/pagina-06.jpg" alt="Página 6 do artigo" loading="lazy">
+  <img src="paginas/pagina-07.jpg" alt="Página 7 do artigo" loading="lazy">
+  <img src="paginas/pagina-08.jpg" alt="Página 8 do artigo" loading="lazy">
+  <img src="paginas/pagina-09.jpg" alt="Página 9 do artigo" loading="lazy">
+</main>
+<footer>Artigo escrito em LaTeX (REVTeX 4.2).</footer>
+</body>
+</html>
